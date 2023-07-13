@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <title>LPの練習</title>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <h1 class="site-title">
+      <a href="#">YutoMizusawa</a>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="http://www.Twitter.com/swASK71hbn16454" target="_blank" rel="noopener noreferrer"><img src="./img/twitter.png" alt="Twitter" class="icon"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <div class="main">
+    <picture>
+      <source media="(max-width: 680px)" srcset="./img/main-sp.jpg">
+      <img src="./img/main-pc.jpg" alt="">
+    </picture>
+  </div>
+
+  <!-- about -->
+  <section id="about" class="wrapper">
+    <h2 class="sec-title">About</h2>
+    <ul>
+      <li>Yuto Mizusawa</li>
+      <li>Webエンジニアとして活動</li>
+      <li>Python/HTML/CSS</li>
+      <li>メールアドレス：xxxxxxxxx@xxx.com</li>
+    </ul>
+    <p>Web制作やアプリ開発を通じて新規事業に携わっています。一緒に新しいサービス等の開発に興味がある方はお問い合わせください。</p>
+  </section>
+
+  <!-- works -->
+  <section id="works" class="wrapper">
+    <h2 class="sec-title">Works</h2>
+    <ul>
+      <li><img src="./img/works1.jpg" alt="works1"></li>
+      <li><img src="./img/works2.jpg" alt="works1"></li>
+      <li><img src="./img/works3.jpg" alt="works1"></li>
+      <li><img src="./img/works4.jpg" alt="works1"></li>
+      <li><img src="./img/works5.jpg" alt="works1"></li>
+      <li><img src="./img/works6.jpg" alt="works1"></li>
+      <li><img src="./img/works3.jpg" alt="works1"></li>
+      <li><img src="./img/works5.jpg" alt="works1"></li>
+      <li><img src="./img/works1.jpg" alt="works1"></li>
+    </ul>
+  </section>
+
+  <!-- news -->
+  <section id="news" class="wrapper">
+    <h2 class="sec-title">News</h2>
+    <dl>
+      <dt>2023/7/12</dt>
+      <dd>本サイトをリリースしました。</dd>
+      <dt>2023/7/12</dt>
+      <dd>本サイトをリリースしました。</dd>
+      <dt>2023/7/12</dt>
+      <dd>本サイトをリリースしました。</dd>
+      <dt>2023/7/12</dt>
+      <dd>本サイトをリリースしました。</dd>
+      <dt>2023/7/12</dt>
+      <dd>本サイトをリリースしました。</dd>
+    </dl>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="wrapper">
+    <h2 class="sec-title">Contact</h2>
+    <p>お問い合わせは以下のフォームから</p>
+    <form action="#" method="post">
+      <dl>
+        <dt><label for="name">お名前</label></dt>
+        <dd><input type="text" id="name"></dd>
+        <dt><label for="email">メールアドレス</label></dt>
+        <dd><input type="email" id="email"></dd>
+        <dt><label for="content">内容</label></dt>
+        <dd><textarea  id="content" cols="30" rows="10"></textarea></dd>
+      </dl>
+      <div class="button"><input type="submit" value="送信"></div>
+    </form>
+  </section>
+    
+</body>
+</html>
